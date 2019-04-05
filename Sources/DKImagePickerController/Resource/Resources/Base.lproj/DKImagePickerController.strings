@@ -26,6 +26,6 @@
 
 "picker.select.photosOrVideos.error.message" = "It is not possible to select photos and videos at the same time.";
 
-"picker.select.maxLimitReached.error.title" = "Max photos limit reached";
+"picker.select.maxLimitReached.error.title" = "";
 
-"picker.select.maxLimitReached.error.message" = "You can select %@ photos";
+"picker.select.maxLimitReached.error.message" = "Limited to %@ Spotfiles per upload.";
