@@ -223,7 +223,7 @@ open class DKImagePickerControllerBaseUIDelegate: NSObject, DKImagePickerControl
 
         let formattedMaxSelectableCount = formatter.string(from: NSNumber(value: imagePickerController.maxSelectableCount))
 
-        let alert = UIAlertController(title: DKImagePickerControllerResource.localizedStringWithKey("picker.select.maxLimitReached.error.title"), message: nil, preferredStyle: .alert)
+        let alert = UIAlertController(title: "", message: nil, preferredStyle: .alert)
 
         alert.message = String(format: DKImagePickerControllerResource.localizedStringWithKey("picker.select.maxLimitReached.error.message"), formattedMaxSelectableCount ?? imagePickerController.maxSelectableCount)
 
