@@ -18,7 +18,7 @@
 
 "picker.alert.ok" = "OK";
 
-"picker.select.title" = "Select(%@)";
+"picker.select.title" = "Upload(%@)";
 
 "picker.select.done.title" = "Done";
 
