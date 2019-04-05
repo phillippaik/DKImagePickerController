@@ -217,6 +217,7 @@ open class DKImagePickerControllerBaseUIDelegate: NSObject, DKImagePickerControl
     }
 
     open func imagePickerControllerDidReachMaxLimit(_ imagePickerController: DKImagePickerController) {
+        print("max reacheeddddd")
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
         formatter.locale = Locale(identifier: Locale.current.identifier)
